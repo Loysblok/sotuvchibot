@@ -12,7 +12,7 @@ let mcData = undefined;
 const bot = mineflayer.createBot({
   host: 'ir.skyblock.uz',
   port: 25566,
-  username: 'BiBuP',
+  username: 'HomeLander',
   skipValidation: true,
   fakeHost: 'ir.skyblock.uz',
   version: '1.17.1',
@@ -37,9 +37,9 @@ bot.once('spawn', () => {
 })
 
 bot.on('chat', function(username, message) {
-    if(username=='Phantom_')
+    if(username=='DarkBlade')
     {
-        if(message == 'Phantom')
+        if(message == '!status')
         {
             bot.chat("status: " + status + " ss: " + sell_status)
         }
@@ -88,8 +88,8 @@ function range(p1, p2) {
     return res;
 }
 
-p1 = [-1957, 81, -2863]
-p2 = [-1960, 82, -2859]
+p1 = [612, 64, -889]
+p2 = [615, 67, -885]
 xrange = range(p1[0], p2[0]);
 yrange = range(p1[1], p2[1]);
 zrange = range(p1[2], p2[2]);
@@ -102,8 +102,8 @@ blocks = [];
 
 i = 0;
 
-let sellist = ['lapis_lazuli', 'redstone', 'coal']
-let savelist = ['diamond']
+let sellist = ['lapis_lazuli', 'redstone', 'coal', 'diamond']
+let savelist = []
 
 let not_trash = sellist.concat(savelist); 
 
