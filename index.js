@@ -12,7 +12,7 @@ let mcData = undefined;
 const bot = mineflayer.createBot({
   host: 'ir.skyblock.uz',
   port: 25566,
-  username: 'HomeLander',
+  username: 'BiBuP',
   skipValidation: true,
   fakeHost: 'ir.skyblock.uz',
   version: '1.17.1',
@@ -37,7 +37,7 @@ bot.once('spawn', () => {
 })
 
 bot.on('chat', function(username, message) {
-    if(username=='DarkBlade')
+    if(username=='Phantom_')
     {
         if(message == '!status')
         {
