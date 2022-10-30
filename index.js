@@ -88,8 +88,8 @@ function range(p1, p2) {
     return res;
 }
 
-p1 = [-1959, 82, -2858]
-p2 = [-1957, 81, -2862]
+p1 = [-1960, 81, -2860]
+p2 = [-1959, 81, -2862]
 xrange = range(p1[0], p2[0]);
 yrange = range(p1[1], p2[1]);
 zrange = range(p1[2], p2[2]);
